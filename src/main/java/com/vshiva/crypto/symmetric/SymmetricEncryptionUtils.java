@@ -13,8 +13,8 @@ import javax.crypto.spec.IvParameterSpec;
  */
 public class SymmetricEncryptionUtils
 {
-    private static final String AES = "AES";
-    private static final String AES_CIPHER_ALGORITHM = "AES/CBC/PKCS7Padding";
+    public static final String AES = "AES";
+    public static final String AES_CIPHER_ALGORITHM = "AES/CBC/PKCS7Padding";
 
     public static SecretKey createAESKey() throws Exception {
         SecureRandom secureRandom = new SecureRandom();

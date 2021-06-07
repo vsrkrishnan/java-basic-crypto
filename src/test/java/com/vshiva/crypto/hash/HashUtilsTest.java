@@ -24,7 +24,7 @@ public class HashUtilsTest
     @Test
     public void createSHAHash() throws Exception {
         byte[] salt = HashUtils.generateRandomSalt();
-        String valueToHash = UUID.randomUUID().toString();
+        String valueToHash = "admin123A!!";
         byte[] hash = HashUtils.createSHAHash(valueToHash, salt);
         assertNotNull(hash);
         System.out.println(Hex.toHexString(hash));

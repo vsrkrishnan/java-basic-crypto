@@ -27,7 +27,7 @@ public class HashUtils
         byteStream.write(input.getBytes());
         byte[] valueToHash = byteStream.toByteArray();
 
-        MessageDigest messageDigest = MessageDigest.getInstance(SHA_ALGORITHM);
+        MessageDigest messageDigest = MessageDigest.getInstance(SHA_ALGORITHM, "BCFIPS");
         return messageDigest.digest(valueToHash);
     }
 
