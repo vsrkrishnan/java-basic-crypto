@@ -1,4 +1,4 @@
-package utils;
+package com.vshiva.misc;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;

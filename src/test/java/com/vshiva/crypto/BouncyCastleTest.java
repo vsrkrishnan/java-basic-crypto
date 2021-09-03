@@ -1,4 +1,4 @@
-//package src.main.java;
+package com.vshiva.crypto;//package src.main.java;
 
 import javax.crypto.Cipher;
 

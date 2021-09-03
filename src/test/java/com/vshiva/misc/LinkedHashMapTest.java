@@ -1,4 +1,4 @@
-package utils;
+package com.vshiva.misc;
 
 import java.net.Inet6Address;
 import java.net.InetAddress;
