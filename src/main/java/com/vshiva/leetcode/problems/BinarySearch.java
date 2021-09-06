@@ -39,8 +39,6 @@ public class BinarySearch
         else {
             return recursiveSearch(nums, start, mid - 1, target);
         }
-
-        //return -1;
     }
 
     public static void main(String[] args) {
